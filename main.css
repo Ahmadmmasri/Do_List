@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3498db
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 10px; 
+    padding :30px;
+    border: 1px solid #5a5d5c76;
+    width:50%;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #fff
+
+}
+
+.textGraph{
+    display:flex;
+    gap: 10px;
+    align-items:center;
+    justify-content:center;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+#CreateButton{
+    background-color: #3a9bdc;
+    border-radius: 50px ;
+    height: 30px ;
+    width: 30px ;
+    font-size: 14px ;
+    cursor: pointer;
+}
+
+#CreateButton:hover{
+    background-color: #3498db;
+}
+
+#InputText{
+    width:90%;
+    height:120px;
+    margin-left: 0;
+    font-size: 1.15em;
+    border: 1px solid #5a5d5c76;
+    color: #aaa;
+    background-color: rgba(255, 255, 255, 0.787);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: color 200ms;
+    border-radius:5px;
+}
+#InputText:focus,#InputText:hover,.container:hover{
+    outline: none;
+    border: 1px solid #a0b6c5;
+    background-color: #fff;
+}
+
+.deletAll{
+    position: fixed;
+    bottom: 144px;
+    right: 70px;
+    border-radius:25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(252, 204, 27)
+}
+
+
+
+.btn{
+    background-color: rgb(252, 204, 27);
+    border-radius: 50px ;
+    height: 30px ;
+    width: 30px ;
+    font-size: 14px ;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(253, 211, 60, 0.942);
+}
